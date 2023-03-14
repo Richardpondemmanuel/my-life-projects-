@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".charrity_A">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="187dp"
+        android:layout_height="126dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/avatar" />
+    <TextView
+        android:id="@+id/namecharity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Charity name : ...................................."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+
+    <TextView
+        android:id="@+id/areacharity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Area name : ......................................."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/namecharity"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/ownercharity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Owner name : ......................................."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:layout_below="@id/areacharity"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"/>
+
+    <TextView
+        android:id="@+id/linebtn"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="38dp"
+        android:background="#932C2C"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEEDLINGS"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginLeft="136.9dp"
+        android:layout_below="@id/linebtn"
+        android:layout_marginTop="20dp"
+        android:background="#932C2C"
+        android:padding="3dp"/>
+
+    <Button
+        android:id="@+id/btnmoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linebtn"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="60dp"
+        android:background="#742C93"
+        android:fontFamily="sans-serif-light"
+        android:text="money"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnmoney"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:background="#742C93"
+        android:fontFamily="sans-serif-light"
+        android:text="other donations"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

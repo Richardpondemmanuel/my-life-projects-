@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/advise1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Gather to Make The World Better Place to Live"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="100dp"
+        android:text="DONATE NOW" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:text="CAMPAIGNS"
+        android:layout_below="@+id/btn1"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:text="EVENTS AND ACTIVITIES"
+        android:layout_below="@id/btn2"/>
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:text="DEVELOPMENT PROJECTS"
+        android:layout_below="@+id/btn3"/>
+
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="100dp"
+        android:text="HUMANITARIAN CASES"
+        android:layout_marginLeft="200dp"/>
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:text="HOME COLLECTORS"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/btn5"/>
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:text="HELP AND SUPPORT"
+        android:layout_marginLeft="200dp"
+
+        android:layout_below="@id/btn6"/>
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="182dp"
+        android:layout_height="151dp"
+        android:text="INSIDE TANZANIA"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/btn7"/>
+
+</RelativeLayout>
